@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class=name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/provider
+    username: root
+    password: root
+    schema: classpath:db/schema-mysql.sql
+    data: classpath:db/data-mysql.sql
+server:
+  port: 10003
